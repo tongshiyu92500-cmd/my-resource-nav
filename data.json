@@ -1,0 +1,56 @@
+{
+  "site": {
+    "title": "Shiyu 的资料导航站",
+    "description": "股票量化、旅行攻略、副业项目、咖啡调酒、AI工具、代码资料，一站式整理。"
+  },
+  "items": [
+    {
+      "title": "A股 T+1 量化系统",
+      "category": "股票量化",
+      "tags": ["Tushare", "集合竞价", "选股", "回测"],
+      "level": "重点",
+      "url": "https://example.com",
+      "desc": "放你的系统说明、每日候选池、策略文档、自动推送说明。"
+    },
+    {
+      "title": "泰国情侣旅行攻略",
+      "category": "旅游攻略",
+      "tags": ["泰国", "情侣", "苏州出发", "机酒"],
+      "level": "收藏",
+      "url": "https://example.com",
+      "desc": "放你做好的泰国旅行Word、地图、餐厅、小众玩法和预算清单。"
+    },
+    {
+      "title": "咖啡与调酒体验课资料",
+      "category": "课程资料",
+      "tags": ["咖啡", "调酒", "拉花", "课程"],
+      "level": "课程",
+      "url": "https://example.com",
+      "desc": "沉淀课程PPT、讲义、实操步骤、菜单和学员反馈。"
+    },
+    {
+      "title": "副业项目库",
+      "category": "副业项目",
+      "tags": ["服务型副业", "内容", "私域", "成交"],
+      "level": "项目",
+      "url": "https://example.com",
+      "desc": "整理适合自己的副业方向、报价、执行流程和案例。"
+    },
+    {
+      "title": "AI 工具箱",
+      "category": "AI工具",
+      "tags": ["ChatGPT", "Qwen", "自动化", "提示词"],
+      "level": "工具",
+      "url": "https://example.com",
+      "desc": "收集常用AI工具、提示词模板、自动化脚本说明。"
+    },
+    {
+      "title": "常用代码片段",
+      "category": "代码资料",
+      "tags": ["Python", "GitHub", "自动化", "数据处理"],
+      "level": "代码",
+      "url": "https://example.com",
+      "desc": "沉淀你常用的Python脚本、数据处理逻辑和部署命令。"
+    }
+  ]
+}
