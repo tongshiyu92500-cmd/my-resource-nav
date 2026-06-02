@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shiyu 的资料导航站</title>
+  <meta name="description" content="个人资料、攻略、工具、学习内容导航站" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">Personal Resource Hub</p>
+        <h1 id="siteTitle">Shiyu 的资料导航站</h1>
+        <p id="siteDesc">股票量化、旅行攻略、副业项目、咖啡调酒、AI工具、代码资料，一站式整理。</p>
+      </div>
+      <div class="hero-card">
+        <span id="totalCount">0</span>
+        <small>条资料</small>
+      </div>
+    </header>
+
+    <section class="toolbar">
+      <input id="searchInput" type="search" placeholder="搜索标题、分类、标签、描述..." />
+      <select id="categorySelect">
+        <option value="">全部分类</option>
+      </select>
+    </section>
+
+    <section id="categoryChips" class="chips"></section>
+    <main id="cardList" class="grid"></main>
+    <section id="emptyState" class="empty hidden">没有找到匹配内容。换个关键词试试。</section>
+
+    <footer class="footer">
+      <p>本站用于个人合法资料整理。请勿发布未授权影视、课程、小说、软件等侵权资源。</p>
+    </footer>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
